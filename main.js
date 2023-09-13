@@ -81,7 +81,7 @@ const stringLength = (string) => {
 }
 
 stringLength('Supercalifragilisticexpialidocious')
-    //happy path resolve
+    
     .then((result) =>{
         console.log(`Big Word: ${result}`)
     })
